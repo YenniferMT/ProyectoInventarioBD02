@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.logo{
+    width: 450px;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+section{
+    background-color: rgb(58, 65, 91);
+    width: 700px;
+    margin: auto;
+    display: flex;
+    padding: 3em;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+div{
+    background-color: rgb(167, 171, 183);
+    padding: 2em;
+    margin: 0.5px;
+}
+.div_formula h3{
+    color: rgb(71, 71, 231);
+    text-align: center;
+}
+
+.div_formula form{
+    font-size: 20px;
+}
+.form_input{
+    padding: 8px;
+    width: 250px;
+    border-radius: 4px;
+    border: solid 1px rgb(16, 16, 16);
+}
+.from_selec{
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(65, 106, 106);
+}
+.form_btn{
+    background-color: rgb(63, 99, 189);
+    border: 0ch;
+    padding: 0.5em 2em;
+    border-radius: 4px;
+    color: azure;
+    margin: 10px 5em;
+}
+.dato_tiempo{
+    font-size: 12px;
+}
+.div_recupera{
+    padding: 9em 0.5em;
+}
+.div_recupera hr{
+    margin: 10px 0px;
+    background-color: rgb(12, 28, 28);
+    padding: 1px;
+    border: 0px;
+}
+.div_recupera a{
+    text-decoration: none;
+    color: rgb(209, 240, 253);
+    padding: 5em;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.396);
+    color: aliceblue;
+    text-align: center;
+}
+footer a{
+    color: rgb(106, 186, 255);
+    text-decoration: none;
+}
+footer .contactos{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0em;
+    margin: 0.5px;
+    display: flex;
+}
+footer .contactos li{
+    position: relative;
+    list-style: none;
+    padding: 5px 1em;
+}
